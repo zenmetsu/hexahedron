@@ -1,0 +1,15 @@
+1100 ! need to test viability of CPU  
+       o plan to use VME backplane for signal control
+         o horizontal backplane, cards slot in vertically
+           +. VME backplane has screw terminals for power
+           +. screw terminals rest on surface, will short
+           -- use standoffs
+             +. do not have standoffs
+1114         - acquire from hardware store
+         o use VME prototyping board and wirewrap CPU
+         o use jumper headers direct into neighboring slots for signaling
+         o select 5V power supply unit
+           + VME backplane alone consumes 1.2A due to termination resistor network
+           - located suitable PSU
+     
+     

@@ -1,0 +1,9 @@
+1510 $ finished reset control board  
+1515 o reset control board passed testing, asserts /RESET for 1 sec after powerup or button press
+1529 o added indicator LEDs to reset control board
+1650 o finished integrating reset control board into VME backplane
+1747 o initial power-up of board with revised reset control logic
+        o success, CPU viable
+        o https://www.youtube.com/watch?v=6Y5Ge-I55JM
+1811 o decision to add VME bus interface logic first
+       o add ROM (with all zeros) to neighboring slot for second freerun test and validation of bus

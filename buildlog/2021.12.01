@@ -1,4 +1,4 @@
-1100 ! need to test viability of CPU  
+1100 !. need to test viability of CPU  
        o plan to use VME backplane for signal control
          o horizontal backplane, cards slot in vertically
            +. VME backplane has screw terminals for power

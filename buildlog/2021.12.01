@@ -11,5 +11,15 @@
          o select 5V power supply unit
            + VME backplane alone consumes 1.2A due to termination resistor network
            - located suitable PSU
-     
-     
+1420     ^. wirewrapping free-running board
+           o using 74LS05 for reset initialization logic
+           +. using 25MHz crystal oscillator as it is the only frequency i have
+           - ordered a pair of 32.768MHz crystal oscillators
+1852     o finished wirewrapping board
+         +. no activity from CPU
+         ^. troubleshooting
+           $- faulty 74LS05 identified, all gates non-functional
+         o no spare 74LS05s, using 74LS06 instead
+           o placed order for 12 more 74LS05s
+1939     o decided to modularize the reset control logic
+         ^. wirewrapping reset control board

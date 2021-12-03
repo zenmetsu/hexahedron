@@ -5,5 +5,9 @@
 1747 o initial power-up of board with revised reset control logic
         o success, CPU viable
         o https://www.youtube.com/watch?v=6Y5Ge-I55JM
-1811 o decision to add VME bus interface logic first
+1811 ! need VME bus control
+     ! need ROM
+     ! need RAM
+     ! need serial input/output
+     o decision to add VME bus interface logic first
        o add ROM (with all zeros) to neighboring slot for second freerun test and validation of bus
